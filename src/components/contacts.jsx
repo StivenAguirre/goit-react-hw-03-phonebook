@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../modulocss/contacts.module.css"
-import { render } from "@testing-library/react";
 
 const Contact = ({ name, number, handleNameChange, handleNumberChange, handleSubmit, numberIdInput, nameIdInput }) => {
   return (
